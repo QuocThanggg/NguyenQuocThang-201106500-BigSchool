@@ -19,6 +19,9 @@ namespace NguyenQuocThang_201106500.ViewModels
         public string Time { get; set; }
         [Required]
         public byte Category { get; set; }
+
+        public IEnumerable<Course> UpcommingCourses { get; set; }
+        public bool ShowAction { get; set; }
         
        
         public IEnumerable<Category> Categories { get; set; }
